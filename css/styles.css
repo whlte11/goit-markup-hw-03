@@ -63,7 +63,6 @@ body {
   color: var(--main-text-color);
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
@@ -125,7 +124,7 @@ header{
   display: flex;
   align-items: center;
 }
-.mail {
+.connection:not(:last-child) {
   margin-right: 40px;
 }
 .contacts {
@@ -223,6 +222,9 @@ section {
   margin-right: 24px;
 }
 /* what are we doing */
+.doing{
+  padding-top: 0;
+}
 .second-title {
   margin-bottom: 72px;
   font-weight: 700;
@@ -260,7 +262,7 @@ section {
   margin-right: 24px;
 }
 .container-member{
-  margin: 32px;
+  padding: 32px 0;
 }
 .our-work {
   color: var(--ouwer-text-color);
@@ -292,7 +294,6 @@ section {
 .button-type{
   display: flex;
   justify-content: center;
-  margin-top: 96px;
   margin-bottom: 72px;
   gap: 24px;
 }
@@ -314,7 +315,7 @@ section {
 } */
 .name-project {
     margin-top: 8px;
-    margin-bottom: 32px;
+    /* margin-bottom: 32px; */
     line-height: 1.5;
     color: var(--ouwer-text-color)
 }
@@ -325,6 +326,7 @@ section {
   padding: 32px 16px;
   border: 0.5px solid #f4f4fd;
   border-top: none;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .our-services {
   display: flex;
